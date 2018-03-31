@@ -47,3 +47,7 @@ var ComponentWillUnmount = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentWillUnmount;
+
+ComponentWillUnmount.defaultProps = {
+  callback: null
+};

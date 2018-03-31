@@ -47,3 +47,7 @@ var ComponentDidMount = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentDidMount;
+
+ComponentDidMount.defaultProps = {
+  callback: null
+};

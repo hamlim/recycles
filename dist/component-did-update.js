@@ -47,3 +47,7 @@ var ComponentDidUpdate = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentDidUpdate;
+
+ComponentDidUpdate.defaultProps = {
+  callback: null
+};

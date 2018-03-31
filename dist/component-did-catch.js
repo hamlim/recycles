@@ -51,3 +51,7 @@ var ComponentDidCatch = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentDidCatch;
+
+ComponentDidCatch.defaultProps = {
+  callback: null
+};
