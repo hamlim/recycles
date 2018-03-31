@@ -16,3 +16,6 @@ export default class ComponentWillUnmount extends Component {
     }
   }
 }
+ComponentWillUnmount.defaultProps = {
+  callback: null,
+}

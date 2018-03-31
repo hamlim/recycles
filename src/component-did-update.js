@@ -16,3 +16,6 @@ export default class ComponentDidUpdate extends Component {
     }
   }
 }
+ComponentDidUpdate.defaultProps = {
+  callback: null,
+}

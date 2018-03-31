@@ -16,3 +16,6 @@ export default class ComponentDidMount extends Component {
     }
   }
 }
+ComponentDidMount.defaultProps = {
+  callback: null,
+}

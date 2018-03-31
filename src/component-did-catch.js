@@ -16,3 +16,6 @@ export default class ComponentDidCatch extends Component {
     }
   }
 }
+ComponentDidCatch.defaultProps = {
+  callback: null,
+}
