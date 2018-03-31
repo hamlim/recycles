@@ -1,4 +1,4 @@
-# recycles
+# Recycles ♻️
 
 Recycles is a simple React render-prop component library providing access to several React component lifecycle methods.
 
