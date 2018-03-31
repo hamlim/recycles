@@ -26,7 +26,7 @@ var ComponentDidCatch = function (_Component) {
   _createClass(ComponentDidCatch, [{
     key: 'componentDidCatch',
     value: function componentDidCatch() {
-      if (this.props.callback !== null) {
+      if (this.props.callback != null) {
         var _props;
 
         (_props = this.props).callback.apply(_props, arguments);
@@ -39,7 +39,7 @@ var ComponentDidCatch = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      if (this.props.callback !== null) {
+      if (this.props.callback != null) {
         return this.props.children();
       } else {
         return null;
@@ -51,7 +51,3 @@ var ComponentDidCatch = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentDidCatch;
-
-ComponentDidCatch.defaultProps = {
-  callback: null
-};

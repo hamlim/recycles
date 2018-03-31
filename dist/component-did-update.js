@@ -26,7 +26,7 @@ var ComponentDidUpdate = function (_Component) {
   _createClass(ComponentDidUpdate, [{
     key: 'componentDidUpdate',
     value: function componentDidUpdate() {
-      if (this.props.callback !== null) {
+      if (this.props.callback != null) {
         this.props.callback();
       } else {
         this.props.children();
@@ -35,7 +35,7 @@ var ComponentDidUpdate = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      if (this.props.callback !== null) {
+      if (this.props.callback != null) {
         return this.props.children();
       } else {
         return null;
@@ -47,7 +47,3 @@ var ComponentDidUpdate = function (_Component) {
 }(_react.Component);
 
 exports.default = ComponentDidUpdate;
-
-ComponentDidUpdate.defaultProps = {
-  callback: null
-};
