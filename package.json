@@ -1,6 +1,6 @@
 {
   "name": "recycles",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React lifecycle render-prop components ♻️.",
   "main": "dist/index.js",
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
