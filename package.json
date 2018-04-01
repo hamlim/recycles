@@ -8,10 +8,16 @@
   "private": false,
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.4.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-testing-library": "^1.9.2"
   },
   "scripts": {
-    "build": "babel src/ --out-dir dist/",
-    "prepublish": "babel src/ --out-dir dist/"
+    "build": "babel src/ --out-dir dist/ --ignore spec.js,test.js",
+    "prepublish": "babel src/ --out-dir dist/ --ignore spec.js,test.js",
+    "test": "jest --watchAll"
   }
 }
